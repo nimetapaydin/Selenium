@@ -22,30 +22,24 @@ public class Signin {
         System.setProperty("webdriver.chrome.driver", "D:\\Selenium_example\\drivers\\chromedriver.exe");
         driver = new ChromeDriver(ops);
 
-        driver.get("https://www.hepsiburada.com/");
+        driver.get("https://giris.hepsiburada.com/");
 
         //driver'ın tam pencere açılmasını sağlar
         driver.manage().window().maximize();
 
-        WebElement girisyaptext = driver.findElement(By.id("myAccount"));
-        girisyaptext.click();
+        WebElement userName = driver.findElement(By.id("txtUserName"));
+        userName.click();
+        userName.sendKeys("Buzdolabı");
 
+        WebElement password = driver.findElement(By.id("txtPassword"));
+        password.click();
+        password.sendKeys("12345");
 
-      // WebElement girisyapbuton = driver.findElement(By.id("login"));
-      // girisyapbuton.click();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement element = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(By.id(".//*[@id='login']")));
-
-
-        //class kullanarak elementi bulma
-        WebElement search = driver.findElement(By.className("desktopOldAutosuggestTheme-input"));
-        //bulunan elemente tıklama
-        search.click();
-        //bulunan alana text girmek
-        search.sendKeys("Buzdolabı");
+        WebElement girisyapbtn = driver.findElement(By.id("btnLogin"));
+        girisyapbtn.click();
 
         driver.close();
     }
 }
+
+
