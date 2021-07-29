@@ -24,6 +24,10 @@ public class HomePage {
         search.click();
         //bulunan alana text girmek
         search.sendKeys("Buzdolabı");
+        search.click();
+        //arama yapma
+        WebElement ara = driver.findElement(By.xpath("//*[@class='SearchBoxOld-buttonContainer']"));
+
     }
 
 }
