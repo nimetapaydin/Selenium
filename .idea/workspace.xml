@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Hepsiburada/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hepsiburada/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hepsiburada/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hepsiburada/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hepsiburada/Signin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hepsiburada/Signin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -31,7 +42,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -43,15 +53,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunAnythingCache">
@@ -60,9 +71,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.HomePage">
-    <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePage" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Hepsiburada.HomePage" />
-      <module name="Selenium_example" />
+      <module name="Selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Hepsiburada.*" />
@@ -73,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Signin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Signin" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hepsiburada.Signin" />
       <module name="Selenium_example" />
       <extension name="coverage">
@@ -86,13 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HomePage" />
-        <item itemvalue="Application.Signin" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Application.HomePage" />
+      <item itemvalue="Application.Signin" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,66 +118,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="590" y="215" key="#Notifications" timestamp="1625417745604">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="590" y="215" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1625417745604" />
-    <state x="590" y="215" key="#Project_Structure" timestamp="1626107970509">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="590" y="215" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1626107970509" />
-    <state x="737" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627402135376">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="737" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627402135376" />
-    <state x="678" y="293" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1627379822154">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="293" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627379822154" />
-    <state x="627" y="118" key="CommitChangelistDialog2" timestamp="1627408161594">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="627" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627408161594" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1626108068739">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626108068739" />
-    <state width="741" height="64" key="GridCell.Tab.0.bottom" timestamp="1627581676931">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="741" height="64" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627581676931" />
-    <state width="741" height="64" key="GridCell.Tab.0.center" timestamp="1627581676930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="741" height="64" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627581676930" />
-    <state width="741" height="64" key="GridCell.Tab.0.left" timestamp="1627581676930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="741" height="64" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627581676930" />
-    <state width="741" height="64" key="GridCell.Tab.0.right" timestamp="1627581676930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="741" height="64" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627581676930" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1624902366605">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624902366605" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1627572855730">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627572855730" />
-    <state x="582" y="110" width="756" height="819" key="find.popup" timestamp="1624902140775">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="582" y="110" width="756" height="819" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624902140775" />
-    <state x="380" y="258" key="new project wizard" timestamp="1626108071841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="380" y="258" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1626108071841" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1627404411185">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627404411185" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
