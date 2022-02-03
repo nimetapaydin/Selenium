@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class HomePage {
+public class Search {
 
     public static void main(String[] args){
         //Driver tanımlama ve driver'ın lokasyonunu verme
