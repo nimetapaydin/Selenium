@@ -4,7 +4,7 @@ Feature: Hepsiburada Homepage
   Scenario Outline: Check if the categories are correct.
     Given that open "https://hepsiburada.com" link with "<language>" language
     Given I focus header
-    When Hover over categories
+    When Hover over "<categories>"
     Then Categories appear to be opened
     Examples:
       | language | categories                        |
