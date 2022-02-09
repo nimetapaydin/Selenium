@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import PageObjectModel.Home_Page;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class HomePageSteps {
 
+    Home_Page home_page = new Home_Page();
     public WebDriver driver;
 
 
@@ -23,19 +26,25 @@ public class HomePageSteps {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
-    @Given("I focus header")
-    public void ı_focus_header() {
 
+    @When("Hover over {string}")
+    public void hoverOver(String categoryName) {
+        home_page.hoverElement(categoryName);
     }
-    @When("Hover over categories")
-    public void hover_over_categories() {
 
-    }
+
+
+
     @Then("Categories appear to be opened")
     public void categories_appear_to_be_opened() {
 
     }
 
+    @After
+    public void quitDriver()throws InterruptedException{
+        Thread.sleep(2000);
+        Driver.closedriver();
+    }
 
 
 }
