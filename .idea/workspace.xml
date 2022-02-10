@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="siginPage yapısı kuruldu.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Home_Page.java" afterDir="false" />
+    <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="HoverElement özelliği eklendi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feature/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/homepage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Home_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PageObjectModel/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjectModel/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjectModel/Home_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjectModel/Home_Page.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/stepDefinitions/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepDefinitions/HomePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepDefinitions/SigninPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepDefinitions/SigninPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hepsiburada/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hepsiburada/Signin.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644351836321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HoverElement özelliği eklendi.">
+      <created>1644437829542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644437829542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="search.feature dosyası eklendi. Cucumber alt yapısı kuruldu." />
     <MESSAGE value="siginPage yapısı kuruldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="siginPage yapısı kuruldu." />
+    <MESSAGE value="HoverElement özelliği eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="HoverElement özelliği eklendi." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selenium$Scenario__Login_And_See__1_.ic" NAME="Scenario: Login And See (1) Coverage Results" MODIFIED="1644244015993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

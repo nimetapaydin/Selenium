@@ -22,6 +22,7 @@ public class HomePageSteps {
 
         driver = Driver.getDriver();
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
         driver.get("https://www.hepsiburada.com/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
@@ -32,12 +33,9 @@ public class HomePageSteps {
         home_page.hoverElement(categoryName);
     }
 
-
-
-
-    @Then("Categories appear to be opened")
-    public void categories_appear_to_be_opened() {
-
+    @Then("{string} appear to be opened")
+    public void appearToBeOpened(String firstCategory) {
+        home_page.clickableElement(firstCategory);
     }
 
     @After
@@ -45,6 +43,5 @@ public class HomePageSteps {
         Thread.sleep(2000);
         Driver.closedriver();
     }
-
 
 }

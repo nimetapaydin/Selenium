@@ -33,4 +33,9 @@ public abstract class AbstractClass {
         builder.moveToElement(hoverElement).perform();
     }
 
+    public  void clickableFunction(WebElement clickableElement){
+        wait.until(ExpectedConditions.elementToBeClickable(clickableElement));
+
+    }
+
 }

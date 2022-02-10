@@ -23,4 +23,11 @@ public class Home_Page extends AbstractClass{
         WebElement element = navigationBar.findElement(By.xpath("//span[text()=\"" + hoverElementText + "\"]"));
         hoverFunction(element);
     }
+
+    public void clickableElement(String clickableElementtext){
+        WebElement element = navigationBar.findElement(By.xpath("//a[text()=\"" + clickableElementtext + "\"]"));
+        clickableFunction(element);
+    }
+
+
 }
