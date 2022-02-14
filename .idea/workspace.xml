@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="AbstractClass Güncellendi">
+    <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="product.feature eklendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,13 +200,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Search" />
       <item itemvalue="Application.Signin" />
+      <item itemvalue="Application.Search" />
+      <item itemvalue="Cucumber Java.Scenario: Access to Hepsiburada page" />
+      <item itemvalue="Cucumber Java.Scenario: Login And See" />
+      <item itemvalue="Cucumber Java.Scenario: Login And See (1)" />
       <item itemvalue="Cucumber Java.Feature: Signin" />
       <item itemvalue="Cucumber Java.Feature: homepage" />
-      <item itemvalue="Cucumber Java.Scenario: Access to Hepsiburada page" />
-      <item itemvalue="Cucumber Java.Scenario: Login And See (1)" />
-      <item itemvalue="Cucumber Java.Scenario: Login And See" />
     </list>
     <recent_temporary>
       <list>
@@ -257,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644517296582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="product.feature eklendi">
+      <created>1644780388093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644780388093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +284,8 @@
     <MESSAGE value="siginPage yapısı kuruldu." />
     <MESSAGE value="HoverElement özelliği eklendi." />
     <MESSAGE value="AbstractClass Güncellendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="AbstractClass Güncellendi" />
+    <MESSAGE value="product.feature eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="product.feature eklendi" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selenium$Scenario__Login_And_See__1_.ic" NAME="Scenario: Login And See (1) Coverage Results" MODIFIED="1644244015993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
