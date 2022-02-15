@@ -5,7 +5,7 @@ Feature: Hepsiburada Product
     Given I focus search bar
     Given I type "<product>"
     When I press Enter
-    Then I should see "<product>" products in list
+    Then I should see "<product>" products in list and open product
     Examples:
       | language | product    |
       | TR       | buzdolabı |
