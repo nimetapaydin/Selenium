@@ -26,12 +26,13 @@ public class ProductPageSteps {
 
     }
     @Given("I type {string}")
-    public void ı_type(String string) {
+    public void ı_type(String product) {
+        product_page.typeEmail(product);
 
     }
     @When("I press Enter")
     public void ı_press_enter() {
-
+        product_page.clickbtnSearchButton();
     }
     @Then("I should see {string} products in list and open product")
     public void ı_should_see_products_in_list_and_open_product(String string) {

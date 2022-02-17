@@ -57,11 +57,11 @@ public class Product_Page extends AbstractClass{
         sendKeysFunction(passwordtextarea,password);
     }
 
-    @FindBy(id = "btnLogin")
+    @FindBy(className = "SearchBoxOld-buttonContainer")
 
-    private WebElement btnLoginButton;
-    public void clickbtnLoginButton(){
-        clickFunction(btnLoginButton);
+    private WebElement btnSearch;
+    public void clickbtnSearchButton(){
+        clickFunction(btnSearch);
     }
 
     @FindBy(id = "btnEmailSelect")
