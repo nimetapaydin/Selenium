@@ -38,4 +38,9 @@ public abstract class AbstractClass {
 
     }
 
+    public void visibleFunction(WebElement visibleElement){
+      //  wait.until(ExpectedConditions.visibilityOfElementLocated(visibleElement));
+      //  visibleElement.findElement(visibleElement,e)
+    }
+
 }

@@ -64,11 +64,11 @@ public class Product_Page extends AbstractClass{
         clickFunction(btnSearch);
     }
 
-    @FindBy(id = "btnEmailSelect")
+    @FindBy(className = "searchResultSummaryBar-mainText")
 
-    private WebElement btnEmailSelect;
+    private WebElement productName;
     public void clickbtnEmailSelect(){
-        clickFunction(btnEmailSelect);
+       // clickFunction(btnEmailSelect);
     }
 
 
