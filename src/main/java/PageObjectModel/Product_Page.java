@@ -23,6 +23,14 @@ public class Product_Page extends AbstractClass{
         clickFunction(btnSearch);
     }
 
+    @FindBy(className = "desktopOldAutosuggestTheme-input")
+    private WebElement producttextarea;
+
+    public void typeProduct(String product){
+        sendKeysFunction(producttextarea,product);
+    }
+
+
     @FindBy(className = "searchResultSummaryBar-mainText")
 
     private WebElement productName;

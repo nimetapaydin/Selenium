@@ -21,14 +21,12 @@ public class ProductPageSteps {
         driver.manage().deleteAllCookies();
         driver.get("https://www.hepsiburada.com/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        product_page.clickSearchInput();
-
-
+        product_page.clickbtnSearchButton();
     }
+
     @Given("I type {string}")
     public void ı_type(String product) {
-        product_page.typeEmail(product);
-
+        product_page.typeProduct(product);
     }
     @When("I press Enter")
     public void ı_press_enter() {
@@ -36,7 +34,7 @@ public class ProductPageSteps {
     }
     @Then("I should see {string} products in list and open product")
     public void ı_should_see_products_in_list_and_open_product(String string) {
-
+        product_page.visibleproductName();
     }
 
 
