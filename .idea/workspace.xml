@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="ProductPageSteps düzenlendi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feature/product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/product.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Product_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Product_Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645383830199</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ProductPageSteps düzenlendi.">
+      <created>1645472401830</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645472401830</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

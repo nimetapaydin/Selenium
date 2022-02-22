@@ -39,4 +39,11 @@ public class Product_Page extends AbstractClass{
     }
 
 
+    @FindBy(css = "#i0 > div")
+
+    private WebElement firstitem;
+    public void clickfirstitem(){
+        clickFunction(firstitem);
+    }
+
 }
