@@ -40,12 +40,12 @@ public class ProductPageSteps {
 
     @When("Product is selected from the list.")
     public void productIsSelectedFromTheList() {
-
+        product_page.clickfirstitem();
     }
 
     @Then("I should see {string} and open product")
     public void iShouldSeeAndOpenProduct(String arg0) {
-
+        product_page.visibleproduct();
     }
 
 

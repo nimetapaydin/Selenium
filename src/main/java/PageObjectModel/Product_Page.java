@@ -1,5 +1,7 @@
 package PageObjectModel;
 
+import org.apache.batik.css.parser.CSSSelectorList;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,6 +46,12 @@ public class Product_Page extends AbstractClass{
     private WebElement firstitem;
     public void clickfirstitem(){
         clickFunction(firstitem);
+    }
+
+    @FindBy(By.ByCssSelector = "#productDetailsCarousel > div.owl-stage-outer > div > div.owl-item.active > a > picture");
+    private WebElement productItem;
+    public void visibleproduct(){
+        visibleFunction(productItem);
     }
 
 }
