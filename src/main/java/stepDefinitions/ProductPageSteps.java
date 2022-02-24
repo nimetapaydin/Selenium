@@ -43,8 +43,14 @@ public class ProductPageSteps {
         product_page.clickfirstitem();
     }
 
-    @Then("I should see {string} and open product")
-    public void iShouldSeeAndOpenProduct(String arg0) {
+    @Then("I should see product and open product")
+    public void iShouldSeeAndOpenProduct() {
+        String parentWindow = driver.getWindowHandle();
+        // Switch to new window opened
+        for(String winHandle : driver.getWindowHandles()){
+            driver.switchTo().window(winHandle);
+        }
+
         product_page.visibleproduct();
     }
 

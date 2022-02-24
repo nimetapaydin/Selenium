@@ -1,10 +1,9 @@
 package PageObjectModel;
 
-import org.apache.batik.css.parser.CSSSelectorList;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
@@ -41,17 +40,20 @@ public class Product_Page extends AbstractClass{
     }
 
 
-    @FindBy(css = "#i0 > div")
-
+    @FindBy(how = How.CSS, using = "li#i0 > div")
     private WebElement firstitem;
     public void clickfirstitem(){
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         clickFunction(firstitem);
     }
 
-    @FindBy(By.ByCssSelector = "#productDetailsCarousel > div.owl-stage-outer > div > div.owl-item.active > a > picture");
+    @FindBy(how = How.CSS, using = "#productDetailsCarousel > div.owl-stage-outer > div > div.owl-item.active > a > picture")
     private WebElement productItem;
     public void visibleproduct(){
         visibleFunction(productItem);
     }
-
 }

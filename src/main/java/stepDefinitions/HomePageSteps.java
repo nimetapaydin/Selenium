@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import PageObjectModel.Home_Page;
-import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -23,7 +22,7 @@ public class HomePageSteps {
         driver = Driver.getDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.get("https://www.hepsiburada.com/");
+        driver.get(string);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
@@ -38,10 +37,10 @@ public class HomePageSteps {
         home_page.clickableElement(firstCategory);
     }
 
-    @After
-    public void quitDriver()throws InterruptedException{
-        Thread.sleep(2000);
-        Driver.closedriver();
-    }
+//    @After
+//    public void quitDriver()throws InterruptedException{
+//        Thread.sleep(2000);
+//        Driver.closedriver();
+//    }
 
 }

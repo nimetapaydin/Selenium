@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bae99cc2-e28e-432e-9338-4a828bbb810c" name="Default Changelist" comment="ProductPageSteps düzenlendi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/product.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/Product_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/Product_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/ProductPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/ProductPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,15 +163,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Access to Hepsiburada page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: After searching, the product is selected from the list." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Signin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/product.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Selenium" />
-      <option name="NAME_FILTER" value="^Access to Hepsiburada page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Access to Hepsiburada page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Access to Hepsiburada page" />
+      <option name="NAME_FILTER" value="^After searching\, the product is selected from the list\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^After searching\, the product is selected from the list\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: After searching, the product is selected from the list." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -203,19 +205,19 @@
     <list>
       <item itemvalue="Application.Signin" />
       <item itemvalue="Application.Search" />
-      <item itemvalue="Cucumber Java.Scenario: Access to Hepsiburada page" />
       <item itemvalue="Cucumber Java.Scenario: Login And See" />
       <item itemvalue="Cucumber Java.Feature: Signin" />
       <item itemvalue="Cucumber Java.Feature: homepage" />
       <item itemvalue="Cucumber Java.Feature: product" />
+      <item itemvalue="Cucumber Java.Scenario: After searching, the product is selected from the list." />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: product" />
+        <item itemvalue="Cucumber Java.Scenario: After searching, the product is selected from the list." />
         <item itemvalue="Cucumber Java.Feature: homepage" />
         <item itemvalue="Cucumber Java.Feature: Signin" />
         <item itemvalue="Cucumber Java.Scenario: Login And See" />
-        <item itemvalue="Cucumber Java.Scenario: Access to Hepsiburada page" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645648847087</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ProductPageSteps düzenlendi.">
+      <created>1645723270789</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645723270789</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
