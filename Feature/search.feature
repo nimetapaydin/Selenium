@@ -14,7 +14,7 @@ Feature: Hepsiburada Search
     Given I focus search bar
     Given I type "<product>"
     When I press Enter
-    Then I should see "<product>" products in list
+    Then I should see product products in search list
     Examples:
       | language | product    |
       | TR       | buzdolabı |
