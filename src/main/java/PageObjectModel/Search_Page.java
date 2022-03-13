@@ -9,7 +9,6 @@ package PageObjectModel;
 
 public class Search_Page extends AbstractClass{
 
-
     WebDriver driver;
 
     public Search_Page(){
@@ -52,8 +51,8 @@ public class Search_Page extends AbstractClass{
     }
 
     @FindBy(how = How.CSS, using = "#productDetailsCarousel > div.owl-stage-outer > div > div.owl-item.active > a > picture")
-    private WebElement productItem;
+    private WebElement searchItem;
     public void visibleproduct(){
-        visibleFunction(productItem);
+        visibleFunction(searchItem);
     }
 }
