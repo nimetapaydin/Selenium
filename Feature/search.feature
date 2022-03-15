@@ -9,12 +9,12 @@ Feature: Hepsiburada Search
 #    Examples:
 
 
-  Scenario Outline: When open hepsiburada page and after search any product then i should see product in list
+  Scenario Outline: When open hepsiburada page and after search any product
     Given that open "https://hepsiburada.com" link with "<language>" language
-    Given I focus search bar
-    Given I type "<product>"
-    When I press Enter
-    Then I should see product products in search list
+    Given  click search bar
+    Given  type "<product>"
+    When  press Enter
+    Then should see product products in search list
     Examples:
       | language | product    |
       | TR       | buzdolabı |

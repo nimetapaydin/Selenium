@@ -13,9 +13,8 @@ public class SearchPageSteps {
     Search_Page search_page = new Search_Page();
     public WebDriver driver;
 
-    @Given("I focus search bar")
-    public void i_focus_search_bar() {
-
+    @Given("I click search bar")
+    public void ıClickSearchBar() {
         driver = Driver.getDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
@@ -25,16 +24,16 @@ public class SearchPageSteps {
     }
 
     @Given("I type {string}")
-    public void i_type(String product) {
+    public void type(String product) {
         search_page.typeProduct(product);
     }
     @When("I press Enter")
-    public void i_press_enter() {
+    public void press_enter() {
         search_page.clickbtnSearchButton();
     }
 
     @Then("I should see product products in search list")
-    public void iShouldSeeAndOpenProduct() {
+    public void ShouldSeeAndOpenProduct() {
         String parentWindow = driver.getWindowHandle();
         // Switch to new window opened
         for(String winHandle : driver.getWindowHandles()){
