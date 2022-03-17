@@ -2,6 +2,8 @@ package stepDefinitions;
 
 import PageObjectModel.Search_Page;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import utilities.Driver;
 
@@ -22,11 +24,15 @@ public class SearchPageSteps {
         search_page.clickbtnSearchButton();
     }
 
-    @Given("type {string}")
+    @When("type {string}")
     public void type(String product) {
         search_page.typeProduct(product);
 
     }
 
 
+    @Then("should see product products in search list")
+    public void shouldSeeProductProductsInSearchList() {
+        search_page.visibleproductList();
+    }
 }

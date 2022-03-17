@@ -1,11 +1,10 @@
 package PageObjectModel;
 
-        import org.openqa.selenium.WebDriver;
-        import org.openqa.selenium.WebElement;
-        import org.openqa.selenium.support.FindBy;
-        import org.openqa.selenium.support.How;
-        import org.openqa.selenium.support.PageFactory;
-        import utilities.Driver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
 public class Search_Page extends AbstractClass{
 
@@ -31,28 +30,11 @@ public class Search_Page extends AbstractClass{
     }
 
 
-    @FindBy(className = "searchResultSummaryBar-mainText")
+    @FindBy(id = "react-autowhatever-1--item-0")
 
-    private WebElement productName;
-    public void visibleproductName(){
-        visibleFunction(productName);
+    private WebElement productList;
+    public void visibleproductList(){
+        visibleFunction(productList);
     }
 
-
-    @FindBy(how = How.CSS, using = "li#i0 > div")
-    private WebElement firstitem;
-    public void clickfirstitem(){
-        try {
-            Thread.sleep(300);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        clickFunction(firstitem);
-    }
-
-    @FindBy(how = How.CSS, using = "#productDetailsCarousel > div.owl-stage-outer > div > div.owl-item.active > a > picture")
-    private WebElement searchItem;
-    public void visibleproduct(){
-        visibleFunction(searchItem);
-    }
 }

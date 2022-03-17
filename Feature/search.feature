@@ -12,8 +12,7 @@ Feature: Hepsiburada Search
   Scenario Outline: When open hepsiburada page and after search any product
     Given that open "https://hepsiburada.com" link with "<language>" language
     Given  click search bar
-    Given  type "<product>"
-    When  press Enter
+    When  type "<product>"
     Then should see product products in search list
     Examples:
       | language | product    |
