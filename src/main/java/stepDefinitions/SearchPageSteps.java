@@ -20,8 +20,9 @@ public class SearchPageSteps {
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.get("https://www.hepsiburada.com/");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         search_page.clickbtnSearchButton();
+        search_page.allownotifications();
     }
 
     @When("type {string}")
@@ -29,7 +30,6 @@ public class SearchPageSteps {
         search_page.typeProduct(product);
 
     }
-
 
     @Then("should see product products in search list")
     public void shouldSeeProductProductsInSearchList() {
