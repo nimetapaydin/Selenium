@@ -22,7 +22,8 @@ public class SearchPageSteps {
         driver.get("https://www.hepsiburada.com/");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         search_page.clickbtnSearchButton();
-        search_page.allownotifications();
+        driver.switchTo().alert().accept();
+
     }
 
     @When("type {string}")
