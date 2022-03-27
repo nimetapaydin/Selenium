@@ -6,14 +6,15 @@ Feature: Hepsiburada Homepage
     When Hover over "<category>"
     Then "<first category>" appear to be opened
     Examples:
-      | language | category                   | first category    |
-      | TR       | Elektronik                 | Bilgisayar/Tablet |
-      | EN       | Moda                       | Moda Anasayfa     |
-      |          | Ev, Yaşam, Kırtasiye, Ofis | Sofra & Mutfak    |
-      |          | Anne, Bebek, Oyuncak       | veri              |
-      |          | Spor, Outdoor              | veri              |
-      |          | Kozmetik, Kişisel Bakım    | veri              |
-      |          | Süpermarket, Pet Shop      | veri              |
-      |          | Kitap, Müzik, Film, Hobi   | veri              |
-      |          | Oto, Bahçe, Yapı Market    | veri              |
+      | language | category                   | first category       |
+      | TR       | Elektronik                 | Bilgisayar/Tablet    |
+      | EN       | Moda                       | Moda Anasayfa        |
+      |          | Ev, Yaşam, Kırtasiye, Ofis | Sofra & Mutfak       |
+      |          | Oto, Bahçe, Yapı Market    | Oto Aksesuar         |
+      |          | Anne, Bebek, Oyuncak       | Anne Bebek Ürünleri  |
+      |          | Spor, Outdoor              | Tüm Spor Ürünleri    |
+      |          | Kozmetik, Kişisel Bakım    | Kozmetik             |
+      |          | Süpermarket, Pet Shop      | Süpermarket Anasayfa |
+      |          | Kitap, Müzik, Film, Hobi   | Kitap & Dergi        |
+
 
